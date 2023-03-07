@@ -12,7 +12,8 @@ body{
     align-items: center;
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
-    background-image: url("https://img.freepik.com/free-vector/flat-design-winter-landscape_23-2148780337.jpg?w=1380&t=st=1678228382~exp=1678228982~hmac=e0e798a632e56214b5b26f0d011d62edce7bd365a42fd84fc78c3aa389b2a967");
+    background-image: url("https://wallpapercave.com/wp/wp2632084.jpg");
+    background-size: cover;
     color: #fff;
 }
 
@@ -109,7 +110,7 @@ input:valid ~ label{
 
 .rememberme a:hover{
     text-decoration: underline;
-    color: #1C3171;
+    color: #DF8C9A;
 }
 
 .buttonsubmit {
@@ -130,7 +131,7 @@ input:valid ~ label{
     transition: .4s;
 }
 .buttonsubmit button:hover{
-    background-color: #1C3171;
+    background-color: #DF8C9A;
     color: #fff;
 }
 
@@ -143,7 +144,7 @@ input:valid ~ label{
 }
 
 .newuser a{
-    color: #1C3171;
+    color: #DF8C9A;
     text-decoration: none;
 }
 
@@ -169,7 +170,7 @@ input:valid ~ label{
 }
 
 .nusocialmedia i:hover{
-    color: #1C3171;
+    color: #DF8C9A;
 }
 
 @media screen and (max-width: 550px) {

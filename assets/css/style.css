@@ -109,7 +109,7 @@ input:valid ~ label{
 
 .rememberme a:hover{
     text-decoration: underline;
-    color: #c6fb94;
+    color: #1C3171;
 }
 
 .buttonsubmit {
@@ -130,7 +130,8 @@ input:valid ~ label{
     transition: .4s;
 }
 .buttonsubmit button:hover{
-    background-color: #c6fb94;
+    background-color: #1C3171;
+    color: #fff;
 }
 
 .newuser{
@@ -142,7 +143,7 @@ input:valid ~ label{
 }
 
 .newuser a{
-    color: #c6fb94;
+    color: #1C3171;
     text-decoration: none;
 }
 
@@ -168,7 +169,7 @@ input:valid ~ label{
 }
 
 .nusocialmedia i:hover{
-    color: #c6fb94;
+    color: #1C3171;
 }
 
 @media screen and (max-width: 550px) {

@@ -17,10 +17,6 @@ body{
     color: #fff;
 }
 
-.userpic{
-    transform: translateY(-5px);
-}
-
 .userpic i{
     display: flex;
     align-items: center;
@@ -162,7 +158,7 @@ input:valid ~ label{
 .nusocialmedia i{
     color: white;
     font-size: 32px;
-    padding: 20px 20px;
+    padding: 20px 20px 0px 0px;
 }
 
 .nusocialmedia a{
@@ -175,6 +171,35 @@ input:valid ~ label{
 
 @media screen and (max-width: 550px) {
     .box{
-        width: 360px;
+        width: 310px;
+        height: 510px;
+    }
+
+    .inputcontainer{
+        position: relative;
+        margin: 30px 0px;
+        width: auto;
+    }
+
+    .rememberme {
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+
+    .newuser{
+        margin-bottom: 10px;
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    .buttonsubmit button{
+        width: 200px;
+        height: 35px;
+        cursor: pointer;
+        transition: .4s;
+    }
+
+    .buttonsubmit {
+        margin-bottom: 10px;
     }
 }
